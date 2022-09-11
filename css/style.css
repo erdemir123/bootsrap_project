@@ -1,0 +1,78 @@
+body{
+    width: 100vw;
+}
+a.nav-link{
+    color: yellow !important;
+    font-size:1.2rem;
+    font-weight: bolder;
+    transition:.4s;
+    text-transform: uppercase !important;
+}
+a.nav-link.active{
+    background-color:rgb(165, 151, 107);
+    color: #fff !important;
+    border-radius: 10px;
+    
+}
+#Home img{
+    max-height: calc(100vh - 50px);
+}
+.navbar-brand{
+    color: yellow ;
+    font-size:1.5rem;
+    font-weight: bolder;
+}
+#load{
+    position: relative;
+    left: -300%;
+    transition: all 1.5s;
+    opacity: 0;
+}
+#load.active{
+    left:0%;
+    opacity: 1;
+}
+#load-card{
+    position: relative;
+    transition: all 1s;
+    opacity: 0;
+}
+#load-card.active{
+    opacity: 1;
+}
+#cards img{
+    height: 300px !important;
+}
+#cards{
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: .8s;
+    
+}
+#cards.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+#Services{
+    padding-bottom: 100px;
+    margin-bottom:100px
+}
+
+
+
+@media (max-width:992px) {
+    #carouselExampleCaptions img{
+        margin-top: 50px;
+        height: 1300px !important;
+    }
+    
+}
+@media (max-width:500px) {
+    #carouselExampleCaptions img{
+        margin-top: 100px;
+        height: 500px !important;
+    }
+    
+}
+

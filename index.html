@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body  data-bs-spy="scroll" data-bs-target=".navbar" >
+    <nav class="navbar navbar-expand-lg bg-secondary  navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item">
+                <a class="nav-link " href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="Home" class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/home-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-warning fs-1">Your Dream House</h5>
+                  <p class="text-warning fs-4 fw-bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas</p>
+                  <button class="btn btn-primary border border-warning border-3">Learn More...</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/home-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-info fs-1">Your Dream House</h5>
+                    <p class="text-info fs-4 fw-bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas</p>
+                    <button class="btn btn-info border border-warning border-3">Learn More...</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/home-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-danger fs-1">Your Dream House</h5>
+                    <p class="text-danger fs-4 fw-bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas</p>
+                    <button class="btn btn-success border border-warning border-3">Learn More...</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      
+      <section id="About" class="container mt-5 bg-light">
+        <div class="card mb-3 border-0" >
+            <div class="row">
+              <div class="col-md-6">
+                <img id="load" src="./images/about.jpg" class="w-75 rounded-4 m-5 " alt="about">
+              </div>
+              <div class="col-md-6 d-flex align-items-center">
+                <div id="load-card" class="card-body text-center">
+                  <h5 class="card-title">WE PROVİDE THE BEST QUALİTY SERVİCES EVER</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in nihil a. Et accusantium, placeat illo, unde tempora vero porro facilis suscipit voluptas voluptate odio quas temporibus, ex saepe illum?</p>
+                  <button class="btn btn-success border border-warning border-3">Learn More...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="Services" class=" container bg-warning">
+        <div class="container services text-center bg-warning">
+            <h3>OUR PROJECT</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque.</p>
+        </div>
+        <div id="cards" class="card-group gap-5 text-center mx-5">
+            <div class="card">
+              <img src="./images/project-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bulding Make</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/project-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bulding Make</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/project-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bulding Make</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+      </section>   
+      <section id="Contact" class="container bg-light px-5 py-5 text-center"  >
+        <div class="row">
+        <div class="form px-4 col-12 col-md-6">
+        <label for="name" class="form-label ">Your Name</label>
+        <input type="text" id="name"  placeholder="Enter name" class="form-control ">
+            </div>
+        <div class="form px-4 col-12 col-md-6">
+        <label for="name" class="form-label ">Your E-mail</label>
+        <input type="email" id="name"  placeholder="Enter e-mail" class="form-control ">
+            </div>
+        <div class="form px-4">
+        <label for="email" class="form-label ">Your Name</label>
+        <input type="text" id="email"  placeholder="Enter subject" class="form-control">
+            </div>
+        <div class="form px-4">
+        <label for="text" class="form-label ">Your Comment</label>
+        <textarea name="text" id="text" class="col-12" placeholder="Enter Your Comments"></textarea>
+        </div>
+    </div>
+    <button class="btn btn-danger text-light my-3">Submit</button>
+    <div><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      Bizi takip edin ...
+    </a>    
+    <div class="offcanvas offcanvas-start d-flex justify-content-center align-items-center" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header ">
+        <h5 class="offcanvas-title text-center " id="offcanvasExampleLabel">Social Media Channels</h5>
+        <button type="button" class="btn-close ps-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <div class="socials my-2 text-center d-flex flex-column gap-5 justify-content-center">
+            <i class="fa-brands fa-facebook-square fa-2x text-warning"></i>
+            <i
+              class="fa-brands fa-instagram-square fa-2x text-warning"
+            ></i>
+            <i class="fa-brands fa-twitter-square fa-2x text-warning"></i>
+            <i
+              class="fa-brands fa-google-plus-square fa-2x text-warning"
+            ></i>
+          </div>
+          <div>
+            <img src="./images/pars.jpg" alt="" style="width:100%">
+          </div>
+        </div>
+      </div>
+    </div></div>
+
+    </section>
+    
+    <section  class="container  bg-light pt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24259.778464944433!2d34.94739488431663!3d40.53115329672049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40872ad1c1411c2b%3A0xac082bafcce3aae0!2zR8O8bGFiaWJleSwgw4dvcnVtIE1lcmtlei_Dh29ydW0!5e0!3m2!1str!2str!4v1662689576298!5m2!1str!2str"style="border:0; height: 500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+    </section>
+    </main>
+    <footer class="container-fluid text-light">
+        <div class="row pt-5">
+        <div class="socials my-2 text-center ">
+            <i class="fa-brands fa-facebook-square fa-2x text-warning"></i>
+            <i
+              class="fa-brands fa-instagram-square fa-2x text-warning"
+            ></i>
+            <i class="fa-brands fa-twitter-square fa-2x text-warning"></i>
+            <i
+              class="fa-brands fa-google-plus-square fa-2x text-warning"
+            ></i>
+          </div>
+          <p class="text-center  text-warning"><i class="fa-solid fa-copyright  text-warning"></i> 2022 Copyright By 
+        Pars İnşaat</p>
+        </div>
+        
+    </footer >
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./lib/js/bootstrap.js"></script>
+    <script src="./lib/js/app.js"></script>
+</body>
+</html>
